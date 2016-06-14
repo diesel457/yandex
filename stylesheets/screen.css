@@ -1,0 +1,154 @@
+/* line 5, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/screen.scss */
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 9, ../sass/screen.scss */
+.achievements-item {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+  background: #fff;
+  position: relative;
+  margin: 10px;
+}
+/* line 18, ../sass/screen.scss */
+.achievements-item .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: relative;
+  z-index: 10;
+}
+/* line 30, ../sass/screen.scss */
+.achievements-item .counter {
+  position: absolute;
+  right: -17px;
+  bottom: 0;
+  z-index: 11;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+/* line 45, ../sass/screen.scss */
+.achievements-item:after {
+  content: '';
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  position: absolute;
+  right: -15px;
+  bottom: 0;
+  z-index: 9;
+  background: #fff;
+}
+/* line 60, ../sass/screen.scss */
+.achievements-item.-blue {
+  border-color: #89b8cf;
+}
+/* line 62, ../sass/screen.scss */
+.achievements-item.-blue .icon {
+  background: #f3f8fa;
+}
+/* line 65, ../sass/screen.scss */
+.achievements-item.-blue .counter {
+  color: #89b8cf;
+  font-weight: bold;
+}
+/* line 69, ../sass/screen.scss */
+.achievements-item.-blue:after {
+  border-color: #89b8cf;
+  background: #f3f8fa;
+}
+/* line 75, ../sass/screen.scss */
+.achievements-item.-pink {
+  border-color: #b09eb7;
+}
+/* line 77, ../sass/screen.scss */
+.achievements-item.-pink .icon {
+  background: #f7f5f8;
+}
+/* line 80, ../sass/screen.scss */
+.achievements-item.-pink .counter {
+  color: #b09eb7;
+  font-weight: bold;
+}
+/* line 84, ../sass/screen.scss */
+.achievements-item.-pink:after {
+  border-color: #b09eb7;
+  background: #f7f5f8;
+}
